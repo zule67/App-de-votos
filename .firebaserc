@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "firestore-grafica-26635": {
+      "hosting": {
+        "goty": [
+          "firestore-grafica-26635"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "firestore-grafica-26635"
+  }
+}

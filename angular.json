@@ -37,7 +37,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumError": "2mb"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -98,8 +98,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "goty:build:production",
+            "firebaseProject": "firestore-grafica-26635",
+            "firebaseHostingSite": "firestore-grafica-26635"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
